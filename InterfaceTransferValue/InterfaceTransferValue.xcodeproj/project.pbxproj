@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0A13B6218320B500091220 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0A13B5218320B500091220 /* AppDelegate.m */; };
+		FF0A13B9218320B500091220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0A13B8218320B500091220 /* ViewController.m */; };
+		FF0A13BC218320B500091220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0A13BA218320B500091220 /* Main.storyboard */; };
+		FF0A13BE218320B500091220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0A13BD218320B500091220 /* Assets.xcassets */; };
+		FF0A13C1218320B500091220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0A13BF218320B500091220 /* LaunchScreen.storyboard */; };
+		FF0A13C4218320B500091220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0A13C3218320B500091220 /* main.m */; };
+		FF0A13CE218320B500091220 /* InterfaceTransferValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0A13CD218320B500091220 /* InterfaceTransferValueTests.m */; };
+		FF0A13D9218320B500091220 /* InterfaceTransferValueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0A13D8218320B500091220 /* InterfaceTransferValueUITests.m */; };
+		FF9541752186DC580093AE9D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9541742186DC580093AE9D /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF0A13CA218320B500091220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0A13A9218320B500091220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0A13B0218320B500091220;
+			remoteInfo = InterfaceTransferValue;
+		};
+		FF0A13D5218320B500091220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0A13A9218320B500091220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0A13B0218320B500091220;
+			remoteInfo = InterfaceTransferValue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF0A13B1218320B500091220 /* InterfaceTransferValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterfaceTransferValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0A13B4218320B500091220 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF0A13B5218320B500091220 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF0A13B7218320B500091220 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF0A13B8218320B500091220 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF0A13BB218320B500091220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF0A13BD218320B500091220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF0A13C0218320B500091220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF0A13C2218320B500091220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0A13C3218320B500091220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF0A13C9218320B500091220 /* InterfaceTransferValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterfaceTransferValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0A13CD218320B500091220 /* InterfaceTransferValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceTransferValueTests.m; sourceTree = "<group>"; };
+		FF0A13CF218320B500091220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0A13D4218320B500091220 /* InterfaceTransferValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterfaceTransferValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0A13D8218320B500091220 /* InterfaceTransferValueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceTransferValueUITests.m; sourceTree = "<group>"; };
+		FF0A13DA218320B500091220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9541732186DC580093AE9D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FF9541742186DC580093AE9D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0A13AE218320B500091220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A13C6218320B500091220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A13D1218320B500091220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF0A13A8218320B500091220 = {
+			isa = PBXGroup;
+			children = (
+				FF0A13B3218320B500091220 /* InterfaceTransferValue */,
+				FF0A13CC218320B500091220 /* InterfaceTransferValueTests */,
+				FF0A13D7218320B500091220 /* InterfaceTransferValueUITests */,
+				FF0A13B2218320B500091220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF0A13B2218320B500091220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A13B1218320B500091220 /* InterfaceTransferValue.app */,
+				FF0A13C9218320B500091220 /* InterfaceTransferValueTests.xctest */,
+				FF0A13D4218320B500091220 /* InterfaceTransferValueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0A13B3218320B500091220 /* InterfaceTransferValue */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A13B4218320B500091220 /* AppDelegate.h */,
+				FF0A13B5218320B500091220 /* AppDelegate.m */,
+				FF0A13B7218320B500091220 /* ViewController.h */,
+				FF0A13B8218320B500091220 /* ViewController.m */,
+				FF9541732186DC580093AE9D /* FirstViewController.h */,
+				FF9541742186DC580093AE9D /* FirstViewController.m */,
+				FF0A13BA218320B500091220 /* Main.storyboard */,
+				FF0A13BD218320B500091220 /* Assets.xcassets */,
+				FF0A13BF218320B500091220 /* LaunchScreen.storyboard */,
+				FF0A13C2218320B500091220 /* Info.plist */,
+				FF0A13C3218320B500091220 /* main.m */,
+			);
+			path = InterfaceTransferValue;
+			sourceTree = "<group>";
+		};
+		FF0A13CC218320B500091220 /* InterfaceTransferValueTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A13CD218320B500091220 /* InterfaceTransferValueTests.m */,
+				FF0A13CF218320B500091220 /* Info.plist */,
+			);
+			path = InterfaceTransferValueTests;
+			sourceTree = "<group>";
+		};
+		FF0A13D7218320B500091220 /* InterfaceTransferValueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF0A13D8218320B500091220 /* InterfaceTransferValueUITests.m */,
+				FF0A13DA218320B500091220 /* Info.plist */,
+			);
+			path = InterfaceTransferValueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0A13B0218320B500091220 /* InterfaceTransferValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0A13DD218320B500091220 /* Build configuration list for PBXNativeTarget "InterfaceTransferValue" */;
+			buildPhases = (
+				FF0A13AD218320B500091220 /* Sources */,
+				FF0A13AE218320B500091220 /* Frameworks */,
+				FF0A13AF218320B500091220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterfaceTransferValue;
+			productName = InterfaceTransferValue;
+			productReference = FF0A13B1218320B500091220 /* InterfaceTransferValue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF0A13C8218320B500091220 /* InterfaceTransferValueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0A13E0218320B500091220 /* Build configuration list for PBXNativeTarget "InterfaceTransferValueTests" */;
+			buildPhases = (
+				FF0A13C5218320B500091220 /* Sources */,
+				FF0A13C6218320B500091220 /* Frameworks */,
+				FF0A13C7218320B500091220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0A13CB218320B500091220 /* PBXTargetDependency */,
+			);
+			name = InterfaceTransferValueTests;
+			productName = InterfaceTransferValueTests;
+			productReference = FF0A13C9218320B500091220 /* InterfaceTransferValueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF0A13D3218320B500091220 /* InterfaceTransferValueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0A13E3218320B500091220 /* Build configuration list for PBXNativeTarget "InterfaceTransferValueUITests" */;
+			buildPhases = (
+				FF0A13D0218320B500091220 /* Sources */,
+				FF0A13D1218320B500091220 /* Frameworks */,
+				FF0A13D2218320B500091220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0A13D6218320B500091220 /* PBXTargetDependency */,
+			);
+			name = InterfaceTransferValueUITests;
+			productName = InterfaceTransferValueUITests;
+			productReference = FF0A13D4218320B500091220 /* InterfaceTransferValueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0A13A9218320B500091220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					FF0A13B0218320B500091220 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF0A13C8218320B500091220 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF0A13B0218320B500091220;
+					};
+					FF0A13D3218320B500091220 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF0A13B0218320B500091220;
+					};
+				};
+			};
+			buildConfigurationList = FF0A13AC218320B500091220 /* Build configuration list for PBXProject "InterfaceTransferValue" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF0A13A8218320B500091220;
+			productRefGroup = FF0A13B2218320B500091220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0A13B0218320B500091220 /* InterfaceTransferValue */,
+				FF0A13C8218320B500091220 /* InterfaceTransferValueTests */,
+				FF0A13D3218320B500091220 /* InterfaceTransferValueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0A13AF218320B500091220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0A13C1218320B500091220 /* LaunchScreen.storyboard in Resources */,
+				FF0A13BE218320B500091220 /* Assets.xcassets in Resources */,
+				FF0A13BC218320B500091220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A13C7218320B500091220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A13D2218320B500091220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0A13AD218320B500091220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0A13B9218320B500091220 /* ViewController.m in Sources */,
+				FF0A13C4218320B500091220 /* main.m in Sources */,
+				FF0A13B6218320B500091220 /* AppDelegate.m in Sources */,
+				FF9541752186DC580093AE9D /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A13C5218320B500091220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0A13CE218320B500091220 /* InterfaceTransferValueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A13D0218320B500091220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0A13D9218320B500091220 /* InterfaceTransferValueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF0A13CB218320B500091220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0A13B0218320B500091220 /* InterfaceTransferValue */;
+			targetProxy = FF0A13CA218320B500091220 /* PBXContainerItemProxy */;
+		};
+		FF0A13D6218320B500091220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0A13B0218320B500091220 /* InterfaceTransferValue */;
+			targetProxy = FF0A13D5218320B500091220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF0A13BA218320B500091220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0A13BB218320B500091220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF0A13BF218320B500091220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0A13C0218320B500091220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF0A13DB218320B500091220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF0A13DC218320B500091220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0A13DE218320B500091220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterfaceTransferValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.InterfaceTransferValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF0A13DF218320B500091220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterfaceTransferValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.InterfaceTransferValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF0A13E1218320B500091220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterfaceTransferValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.InterfaceTransferValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterfaceTransferValue.app/InterfaceTransferValue";
+			};
+			name = Debug;
+		};
+		FF0A13E2218320B500091220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterfaceTransferValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.InterfaceTransferValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterfaceTransferValue.app/InterfaceTransferValue";
+			};
+			name = Release;
+		};
+		FF0A13E4218320B500091220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterfaceTransferValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.InterfaceTransferValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InterfaceTransferValue;
+			};
+			name = Debug;
+		};
+		FF0A13E5218320B500091220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterfaceTransferValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.InterfaceTransferValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InterfaceTransferValue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0A13AC218320B500091220 /* Build configuration list for PBXProject "InterfaceTransferValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0A13DB218320B500091220 /* Debug */,
+				FF0A13DC218320B500091220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0A13DD218320B500091220 /* Build configuration list for PBXNativeTarget "InterfaceTransferValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0A13DE218320B500091220 /* Debug */,
+				FF0A13DF218320B500091220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0A13E0218320B500091220 /* Build configuration list for PBXNativeTarget "InterfaceTransferValueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0A13E1218320B500091220 /* Debug */,
+				FF0A13E2218320B500091220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0A13E3218320B500091220 /* Build configuration list for PBXNativeTarget "InterfaceTransferValueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0A13E4218320B500091220 /* Debug */,
+				FF0A13E5218320B500091220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF0A13A9218320B500091220 /* Project object */;
+}
